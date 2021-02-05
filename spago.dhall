@@ -1,5 +1,5 @@
 { name = "control"
-, dependencies = ["prelude", "effect"]
-, packages = ../purec--master/package-sets/packages.dhall
+, dependencies = [ "prelude", "effect" ]
+, packages = ../pure-c/package-sets/packages.dhall
 , sources = [ "src/**/*.purs", "test/**/*.purs" ]
 }
